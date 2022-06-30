@@ -1,0 +1,1079 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <meta name="GENERATOR"
+ content="Mozilla/4.6 [de]C-CCK-MCD QXW0321v  (Win98; I) [Netscape]">
+  <meta name="Author" content="Axel Lauer">
+  <title>Tank Blaster II - Dokumentation</title>
+</head>
+<body text="#000000" bgcolor="#cccccc" link="#0000ee" vlink="#551a8b"
+ alink="#ff0000">
+&nbsp;
+<center>
+<table cols="1" width="75%" bgcolor="#ffcc99" nosave="">
+  <tbody>
+    <tr nosave="">
+      <td nosave="">
+      <center>
+      <h1><font color="#000000">Willkommen zur Tank Blaster II</font></h1>
+      </center>
+      <center>
+      <h1><font color="#000000">- Dokumentations-Datei -</font></h1>
+      </center>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</center>
+<br>
+&nbsp;
+<h2><b>Inhaltsverzeichnis:</b></h2>
+<table width="60%" bgcolor="#ffffcc" nosave="">
+  <tbody>
+    <tr nosave="">
+      <td nosave="">
+      <div align="right"><b>I.</b></div>
+      </td>
+      <td><b>Systemanforderungen</b></td>
+    </tr>
+    <tr>
+      <td>
+      <div align="right"><b>II.</b></div>
+      </td>
+      <td><b>Tank Blaster Steuerung</b></td>
+    </tr>
+    <tr>
+      <td>
+      <div align="right">a)</div>
+      </td>
+      <td>Das Intro</td>
+    </tr>
+    <tr>
+      <td>
+      <div align="right">b)</div>
+      </td>
+      <td>Das Eingabemen&uuml;</td>
+    </tr>
+    <tr>
+      <td>
+      <div align="right">c)</div>
+      </td>
+      <td>Das Spiele</td>
+    </tr>
+    <tr>
+      <td>
+      <div align="right">d)</div>
+      </td>
+      <td>Der Laden</td>
+    </tr>
+    <tr>
+      <td>
+      <div align="right">e)</div>
+      </td>
+      <td>Das Extro</td>
+    </tr>
+    <tr>
+      <td>
+      <div align="right"><b>III.</b></div>
+      </td>
+      <td><b>Eine ernsthafte Beschreibung des Spiels</b></td>
+    </tr>
+    <tr>
+      <td>
+      <div align="right">a)</div>
+      </td>
+      <td>Das Spiel</td>
+    </tr>
+    <tr>
+      <td>
+      <div align="right">b)</div>
+      </td>
+      <td>Der Feind</td>
+    </tr>
+    <tr>
+      <td>
+      <div align="right">c)</div>
+      </td>
+      <td>Die Ausr&uuml;stung</td>
+    </tr>
+    <tr>
+      <td>
+      <div align="right"><b>IV.</b></div>
+      </td>
+      <td><b>Tank Blaster registrieren</b></td>
+    </tr>
+    <tr>
+      <td>
+      <div align="right"><b>V.</b></div>
+      </td>
+      <td><b>Credits</b></td>
+    </tr>
+    <tr>
+      <td>
+      <div align="right"><b>VI.</b></div>
+      </td>
+      <td><b>Trouble Shooting</b></td>
+    </tr>
+    <tr>
+      <td>
+      <div align="right"><b>VII.</b></div>
+      </td>
+      <td><b>Tank Blaster Versionsgeschichte, was neu ist</b></td>
+    </tr>
+    <tr>
+      <td>
+      <div align="right"><b>VIII.</b></div>
+      </td>
+      <td><b>Tank Blaster im Internet</b></td>
+    </tr>
+    <tr>
+      <td>
+      <div align="right"><b>IX.</b></div>
+      </td>
+      <td><b>Lizenzbestimmungen</b></td>
+    </tr>
+  </tbody>
+</table>
+<h2>
+I. Systemanforderungen</h2>
+<b>Die minimalen Systemanforderungen:</b>
+<ul>
+  <li>Pentium / AMD K6, 200 MHz</li>
+  <li>Windows 9x / me</li>
+  <li>DirectX Version 7.0 oder neuer</li>
+  <li>Grafikkarte mit Unterst&uuml;tzung von HiColor (16 bit) oder
+TrueColor
+(24 / 32 bit)</li>
+  <li>Soundkarte</li>
+  <li>10 MB freier Speicher auf Festplatte</li>
+</ul>
+<b>Empfohlene (zus&auml;tzliche) Hardware:</b>
+<ul>
+  <li>Pentium II / AMD K6-2, 300 MHz</li>
+  <li>2D beschleunigte Hochleistungsgrafikkarte (z. B. TNT (2), Voodoo
+3, ...)</li>
+  <li>64 MB Speicher</li>
+  <li>AMD Athlon C, 1333 MHz :-)</li>
+</ul>
+<b>Verwendete Dateien:</b>
+<br>
+&nbsp;
+<table width="60%" bgcolor="#ffffcc" nosave="">
+  <tbody>
+    <tr>
+      <td><b>Dateiname</b></td>
+      <td><b>Beschreibung</b></td>
+    </tr>
+    <tr>
+      <td>Readme.html</td>
+      <td>HTML Startseite der Dokumentation</td>
+    </tr>
+    <tr nosave="">
+      <td nosave="">Tank Blaster.exe</td>
+      <td>Tank Blaster Programm (ausf&uuml;hrbare Datei)</td>
+    </tr>
+    <tr>
+      <td>tank.cfg</td>
+      <td>Datei zum Speichern der Benutzereinstellungen (wird von der
+ausf&uuml;hrbaren
+Datei erzeugt)</td>
+    </tr>
+    <tr>
+      <td>Uninstall.exe</td>
+      <td>Deinstallations-Programm</td>
+    </tr>
+    <tr>
+      <td>\doc</td>
+      <td>Ordner mit der Dokumentation (HTML-Version)</td>
+    </tr>
+  </tbody>
+</table>
+<h2>
+II. Tank Blaster Steuerung</h2>
+<h3>
+a) Das Intro</h3>
+Das Intro kann durch dr&uuml;cken einer beliebigen Taste oder des
+linken
+Mausknopfes abgebrochen werden.
+<h3>b) Das Eingabemen&uuml;</h3>
+<b>Tastaturbefehle:</b>
+<br>
+&nbsp;
+<table width="60%" bgcolor="#ffffcc" nosave="">
+  <tbody>
+    <tr>
+      <td><b>Taste</b></td>
+      <td><b>Befehl</b></td>
+    </tr>
+    <tr>
+      <td>F1</td>
+      <td>Hilfe</td>
+    </tr>
+    <tr>
+      <td>+</td>
+      <td>Anzahl der Runden erh&ouml;hen</td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>Anzahl der Runden verringern</td>
+    </tr>
+    <tr>
+      <td>o</td>
+      <td>Men&uuml; f&uuml;r <a href="#options">Spieloptionen</a>
+aufrufen</td>
+    </tr>
+    <tr>
+      <td>Esc</td>
+      <td>Eingabemen&uuml; verlassen und Spiel starten</td>
+    </tr>
+  </tbody>
+</table>
+<p><b>Mausbefehle:</b>
+<br>
+<img src="Menu_help.gif" height="320" width="640"><br>
+<a name="options"></a><b>Spieloptionen:</b>
+<br>
+&nbsp;
+<table width="100%" bgcolor="#ffffcc">
+  <tbody>
+    <tr>
+      <td><b>Gescho&szlig; Wiedereintritt:</b> <br>
+      <img src="../gfx/Symbol_Reentry.gif" nosave="" height="32"
+ width="48" align="texttop"></td>
+      <td>Ist diese Option angeschaltet, kommt eine seitlich aus dem
+Spielfeld
+geschossene Kugel nach einer "Erdumrundung" wieder auf der
+entgegengesetzten
+Seite ins Spielfeld geflogen. M&ouml;gliche Einstellungen: (immer) aus,
+immer an und Zufall. Ist in einer Runde der Gescho&szlig;
+Wiedereintritt
+aktiv, erscheint in der Statusleiste am unteren Bildschirmrand das
+links
+abgebildete Symbol.</td>
+    </tr>
+    <tr>
+      <td><b>Anzahl B&auml;ume:</b></td>
+      <td>Legt fest, wie viele B&auml;ume bereits zu Beginn der Runde
+im Spiel
+sind. M&ouml;gliche Einstellungen: 0 (keine), 1, 2 oder Zufall (d. h.
+0,
+1 oder 2).</td>
+    </tr>
+    <tr>
+      <td><b>Aggressivit&auml;t der Wolke:</b></td>
+      <td>Legt fest, wie aggressiv die Wolke auf Durchschie&szlig;en
+reagiert.
+M&ouml;gliche Einstellungen: 0 (v&ouml;llig gelassen) - 100 (extrem
+aggressiv).</td>
+    </tr>
+    <tr>
+      <td><b>Schneller Rundenstart:</b></td>
+      <td>Ist diese Option aktiviert, werden beim Start einer neuen
+Runde nicht
+erst die Spieler und ihre Positionen gezeigt, sondern das
+Kampfgeschehen
+beginnt sofort.</td>
+    </tr>
+    <tr>
+      <td><b>Sprache:</b></td>
+      <td>Hiermit kann man jederzeit die eingestellte Sprache von Tank
+Blaster
+II &auml;ndern. Das Sprachmen&uuml; wird ebenfalls automatisch beim
+allerersten
+Start von Tank Blaster II angezeigt.</td>
+    </tr>
+  </tbody>
+</table>
+</p>
+<h3>c) Das Spiel</h3>
+<b>Tastaturbefehle</b>
+<p>Die folgenden Befehle sind nur per Tastatur m&ouml;glich:
+<br>
+&nbsp;
+<table width="60%" bgcolor="#ffffcc" nosave="">
+  <tbody>
+    <tr>
+      <td><b>Taste</b></td>
+      <td><b>Befehl</b></td>
+    </tr>
+    <tr>
+      <td>F1</td>
+      <td>Hilfe</td>
+    </tr>
+    <tr>
+      <td>1, 2, 3, ..., 9, 0</td>
+      <td>Detailinformationen &uuml;ber Spieler 1, 2, 3, ..., 9, 10
+anzeigen</td>
+    </tr>
+    <tr>
+      <td>Leertaste</td>
+      <td>aktuelle Rangliste anzeigen</td>
+    </tr>
+    <tr>
+      <td>Strg + e</td>
+      <td>Runden sofort beenden (alles atomisieren)</td>
+    </tr>
+    <tr>
+      <td>Strg + n</td>
+      <td>Spielernamen ein-/ausblenden</td>
+    </tr>
+    <tr>
+      <td>Strg + p</td>
+      <td>Pause</td>
+    </tr>
+    <tr>
+      <td>Strg + q</td>
+      <td>Programm beenden</td>
+    </tr>
+  </tbody>
+</table>
+</p>
+<p>Diese Tastaturbefehle sind auch per Maussteuerung m&ouml;glich:
+<br>
+&nbsp;
+<table width="60%" bgcolor="#ffffcc" nosave="">
+  <tbody>
+    <tr>
+      <td><b>Taste</b></td>
+      <td><b>Befehl</b></td>
+    </tr>
+    <tr>
+      <td>Pfeil hoch</td>
+      <td>Kraft um eins (+ Shift = um zehn) erh&ouml;hen</td>
+    </tr>
+    <tr>
+      <td>Pfeil runter</td>
+      <td>Kraft um eins (+ Shift = um zehn) verringern</td>
+    </tr>
+    <tr>
+      <td>Pfeil rechts</td>
+      <td>Kanone gegen UZS um 1&deg; (+ Shift = um 10&deg;) drehen</td>
+    </tr>
+    <tr>
+      <td>Pfeil links</td>
+      <td>Kanone im UZS um 1&deg; (+ Shift = um 10&deg;) drehen</td>
+    </tr>
+    <tr>
+      <td>+</td>
+      <td>Kraft um 10 erh&ouml;hen</td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>Kraft um 10 verringern</td>
+    </tr>
+    <tr>
+      <td>i</td>
+      <td>Schu&szlig;winkel (Richtung) invertieren</td>
+    </tr>
+    <tr>
+      <td>Tab</td>
+      <td>N&auml;chste Waffe ausw&auml;hlen</td>
+    </tr>
+    <tr>
+      <td>Shift + Tab</td>
+      <td>Vorherige Waffe ausw&auml;hlen</td>
+    </tr>
+    <tr>
+      <td>Eingabetaste</td>
+      <td>Kanone abfeuern</td>
+    </tr>
+    <tr>
+      <td>s</td>
+      <td>Scroll-o-Mat ein-/ausschalten (scrollen mit den Pfeiltasten)</td>
+    </tr>
+    <tr>
+      <td>e</td>
+      <td>Motor anlassen</td>
+    </tr>
+  </tbody>
+</table>
+</p>
+<p><b>Mausbefehle:</b>
+</p>
+<p>Die Statusleiste befindet sich am unteren Rand des Bildschirms. Sie
+enth&auml;lt folgende Steuerelemente f&uuml;r die Maus:
+</p>
+<h3><img src="statusbar.gif" height="320" width="640"></h3>
+<h3>
+d) Der Laden</h3>
+<ul>
+  <li> <b>Das Hauptmen&uuml;</b></li>
+</ul>
+<b>Tastaturbefehle:</b>
+<br>
+&nbsp;
+<table width="60%" bgcolor="#ffffcc" nosave="">
+  <tbody>
+    <tr>
+      <td><b>Taste</b></td>
+      <td><b>Befehl</b></td>
+    </tr>
+    <tr>
+      <td>F1</td>
+      <td>Hilfe</td>
+    </tr>
+    <tr>
+      <td>Esc</td>
+      <td>Laden verlassen/n&auml;chster Spieler</td>
+    </tr>
+    <tr>
+      <td>Strg + p</td>
+      <td>Pause</td>
+    </tr>
+    <tr>
+      <td>Strg + q</td>
+      <td>Programm beenden</td>
+    </tr>
+  </tbody>
+</table>
+<p><b>Mausbefehle:</b>
+</p>
+<p><img src="shopping_main.gif" height="252" width="640"></p>
+<ul>
+  <li> <b>Das Einkaufsmen&uuml; "Klasse A"</b></li>
+</ul>
+<b>Tastaturbefehle:</b>
+<br>
+&nbsp;
+<table width="60%" bgcolor="#ffffcc" nosave="">
+  <tbody>
+    <tr>
+      <td><b>Taste</b></td>
+      <td><b>Befehl</b></td>
+    </tr>
+    <tr>
+      <td>Pfeil hoch</td>
+      <td>hochscrollen</td>
+    </tr>
+    <tr>
+      <td>Pfeil runter</td>
+      <td>runterscrollen</td>
+    </tr>
+    <tr>
+      <td>Eingabetaste</td>
+      <td>ausgew&auml;hlte Sache kaufen</td>
+    </tr>
+    <tr>
+      <td>Esc</td>
+      <td>zur&uuml;ck zum Hauptmen&uuml;</td>
+    </tr>
+    <tr>
+      <td>Strg + p</td>
+      <td>Pause</td>
+    </tr>
+    <tr>
+      <td>Strg + q</td>
+      <td>Programm beenden</td>
+    </tr>
+  </tbody>
+</table>
+<p><b>Mausbefehle:</b>
+</p>
+<p><img src="shopping_class_a.gif" height="254" width="640"></p>
+<h3>e) Das Extro</h3>
+Nach dem Betrachten der Rangliste eine beliebige Taste oder den linken
+Mausknopf dr&uuml;cken um Tank Blaster zu beenden und zu Windows
+zur&uuml;ckzukehren.
+<h2>III. Eine ernsthafte Beschreibung des Spiels</h2>
+<h3>
+a) Das Spiel</h3>
+Puste alles weg und bleib am Leben (wenn Du kannst). La&szlig; alle
+gegnerischen
+Panzer von der Bildfl&auml;che verschwinden um so viel Kohle wie
+m&ouml;glich
+zu machen. Aber pa&szlig; auf: Du bist schon anvisiert. Auf dem
+Schwarzmarkt
+kannst Du alles, was Du nur willst, bekommen um Deine Aufgabe zu
+erf&uuml;llen
+- wenn Du es Dir leisten kannst. Jede geknallte Knallt&uuml;te bringt
+Dir
+Geld f&uuml;r bessere und gr&ouml;&szlig;ere (oh ja) Kanonen, Kugeln,
+...
+. Merke: Dollars zu sparen erspart Dir bestimmt nicht den Tod!
+<br>
+F&uuml;r die Endplatzierung bekommst Du 2 Punkte f&uuml;r jeden in
+die Luft gesprengten Panzer und 1 extra Punkt pro &uuml;berlebter
+Runde.
+Die Pfeifen, die sich selbst ausnullen zahlen jedesmal 3 Punkte, wenn
+sie
+sich eine Bombe auf die F&uuml;&szlig;e fallen lassen.
+<h3>b) Der Feind</h3>
+<table width="100%" bgcolor="#ffffcc" nosave="">
+  <tbody>
+    <tr>
+      <td><b>Name</b></td>
+      <td><b>Symbol</b></td>
+      <td><b>Beschreibung</b></td>
+    </tr>
+    <tr>
+      <td>D. D&ouml;del</td>
+      <td><img src="../gfx/Doedel.gif" nosave="" height="53" width="49"></td>
+      <td>Diese Typen haben kein Hirn, das sie irgendwie st&ouml;ren
+k&ouml;nnte.
+Sie feuern einfach ihre Kanonen ab. Du kannst sie dazu benutzen um
+gegen
+Deine kleine Schwester zu spielen. Die einzige Bedrohung ist eine
+Situation,
+in der D. D&ouml;del unter einem anderen Spieler steht und nichts einem
+direkten Schu&szlig; im Weg ist.</td>
+    </tr>
+    <tr>
+      <td>Frederic</td>
+      <td><img src="../gfx/Frederic.gif" nosave="" height="53"
+ width="49"></td>
+      <td>Obwohl er nicht sehr treffsicher ist wenn es st&uuml;rmt,
+verbessert
+er sein Zielen von Schu&szlig; zu Schu&szlig; - knall ihn einfach
+nachdem
+Du die <br>
+besseren Gegner losgeworden bist. Frederic kann auch direkte
+Sch&uuml;sse
+durchf&uuml;hren.</td>
+    </tr>
+    <tr>
+      <td>Prof. Nuke</td>
+      <td><img src="../gfx/ProfNuke.gif" nosave="" height="53"
+ width="49"></td>
+      <td>Harten Typen lieben es hei&szlig; - er auch. Wenn Du Toast
+willst,
+gib ihm eine Chance. Du wirst gut durchsein.</td>
+    </tr>
+    <tr>
+      <td>Harald</td>
+      <td><img src="../gfx/Harald.gif" nosave="" height="53" width="49"></td>
+      <td>Stell Dir Deinen schlimmsten Alptraum vor, direkt aus der
+H&ouml;lle,
+Terror und Schmerz verursachend. Willst Du noch was schlimmeres sehen?
+Ok, ok, das war nur Spa&szlig;. Harald ist sogar noch t&ouml;dlicher.</td>
+    </tr>
+    <tr>
+      <td>Mr. X</td>
+      <td><img src="../gfx/MrX.gif" nosave="" height="53" width="49"></td>
+      <td>Er wechselt seine Identit&auml;t schneller als die meisten
+Leute ihre
+Unterw&auml;sche. Du wei&szlig;t nie, wer gerade den Abzug dr&uuml;ckt
+...</td>
+    </tr>
+    <tr>
+      <td>Du</td>
+      <td><img src="../gfx/Human.gif" nosave="" height="53" width="49"></td>
+      <td>Sehr schwer einzusch&auml;tzen. Kann teilweise sehr
+gef&auml;hrlich
+und gemein spielen. Hat meist eine Vorliebe f&uuml;r gro&szlig;e Waffen.</td>
+    </tr>
+  </tbody>
+</table>
+<h3>
+c) Die Ausr&uuml;stung</h3>
+<h4>
+Waffen</h4>
+Im Laden k&ouml;nnen zwei unterschiedliche Qualit&auml;tsklassen von
+Waffen
+gekauft werden. Die "Klasse A"-Waffen sind teuer, aber daf&uuml;r ist
+sichergestellt,
+da&szlig; sie auch wirklich immer funktionieren. Wer auf sein
+Gl&uuml;ck
+vertraut oder knapp bei Kasse ist und trotzdem einmal gro&szlig;e
+Waffen
+haben m&ouml;chte, kann auch "Schn&auml;ppchen" einkaufen. Meist sind
+sie
+sehr g&uuml;nstig, aber es gibt keine Garantie vom Ladenbesitzer,
+da&szlig;
+sie auch wirklich losgehen. Au&szlig;erdem sind Schn&auml;ppchen nicht
+immer verf&uuml;gbar...
+<br>
+&nbsp;
+<table width="100%" bgcolor="#ffffcc" nosave="">
+  <tbody>
+    <tr>
+      <td><b>Symbol</b></td>
+      <td><b>Beschreibung</b></td>
+      <td><b>Symbol</b></td>
+      <td><b>Beschreibung</b></td>
+    </tr>
+    <tr>
+      <td>
+      <center><img src="../gfx/Tracer.gif" nosave="" height="34"
+ width="32"></center>
+      </td>
+      <td><b>Spurgescho&szlig;.</b> Verursacht keine Sch&auml;den.
+Dient zum
+gefahrlosen Testen von Schu&szlig;bahnen.</td>
+      <td>
+      <center><img src="../gfx/Tricerator.gif" nosave="" height="32"
+ width="32"></center>
+      </td>
+      <td><b>MFS 3-fach</b>. <u>M</u>ehr<u>F</u>ach<u>S</u>prengkopf,
+feuert
+drei Kugeln vom Typ "Granate, gro&szlig;" jeweils um einige Grad
+gestreut
+ab.</td>
+    </tr>
+    <tr>
+      <td>
+      <center><img src="../gfx/Incinerator_1.gif" nosave="" height="32"
+ width="32"></center>
+      </td>
+      <td><b>Granate</b>, Standardgescho&szlig;. Explodiert beim
+Einschlag.</td>
+      <td>
+      <center><img src="../gfx/Crumbler_1.gif" nosave="" height="32"
+ width="32"></center>
+      </td>
+      <td><b>Br&ouml;sler, klein</b>. L&ouml;st bei Ber&uuml;hrung mit
+dem Boden
+den Untergrund auf.</td>
+    </tr>
+    <tr>
+      <td>
+      <center><img src="../gfx/Incinerator_2.gif" nosave="" height="32"
+ width="32"></center>
+      </td>
+      <td><b>Granate, gro&szlig;</b>. St&auml;rkere Explosion als die
+Standard-Granate.</td>
+      <td>
+      <center><img src="../gfx/Crumbler_2.gif" nosave="" height="32"
+ width="32"></center>
+      </td>
+      <td><b>Br&ouml;sler, gro&szlig;</b>. Wie die kleine Ausgabe,
+jedoch erheblich
+st&auml;rkere Wirkung.</td>
+    </tr>
+    <tr>
+      <td>
+      <center><img src="../gfx/Atomic.gif" nosave="" height="32"
+ width="32"></center>
+      </td>
+      <td><b>Atombombe</b>. Gro&szlig;e Explosion beim Einschlag.</td>
+      <td>
+      <center><img src="../gfx/Surprise.gif" nosave="" height="32"
+ width="32"></center>
+      </td>
+      <td><b>&Uuml;berraschungsei</b>. Hier kann alles enthalten sein,
+von der
+Granate bis zum Luftschlag. Der Spieler wei&szlig; im Vorhinein nicht,
+mit was er schie&szlig;t. B&ouml;se Zugen behaupten, es w&uuml;rde gar
+nicht stimmen, da&szlig; in jedem siebten Ei ein Plasmaschmelzer ist.</td>
+    </tr>
+    <tr>
+      <td>
+      <center><img src="../gfx/Hydrogen.gif" nosave="" height="32"
+ width="32"></center>
+      </td>
+      <td><b>H-Bombe</b>. Riesige Explosion.</td>
+      <td>
+      <center><img src="../gfx/Mosquitos.gif" nosave="" height="32"
+ width="32"></center>
+      </td>
+      <td><b>Moskitos</b>. Einmal losgelassen, suchen sie sich das
+n&auml;chstgelegene
+Opfer und saugen dieses aus. Fast immer t&ouml;dlich.</td>
+    </tr>
+    <tr>
+      <td>
+      <center><img src="../gfx/Plasma.gif" nosave="" height="32"
+ width="32"></center>
+      </td>
+      <td><b>Plasmaschmelzer</b>. Kann gro&szlig;e Areale des
+Spielfelds mit
+einem einzigen Schlag atomisieren.</td>
+      <td>
+      <center><img src="../gfx/Shockwave.gif" nosave="" height="32"
+ width="32"></center>
+      </td>
+      <td><b>Schockwelle</b>. Besitzt einen gro&szlig;en Aktionsradius.
+Entfaltet
+t&ouml;dliche Wirkung ohne den Untergrund zu zerst&ouml;ren.
+N&uuml;tzlich,
+wenn wegen der Gefahr des Auslaufens von Wasser keine Explosivwaffen in
+Frage kommen.</td>
+    </tr>
+    <tr>
+      <td>
+      <center><img src="../gfx/Palme.gif" nosave="" height="32"
+ width="32"></center>
+      </td>
+      <td><b>Wunderpalme</b>. Diese B&auml;ume k&ouml;nnen an der
+richtigen Stelle
+gepflanzt eine sehr effektive Schutzfunktion haben, denn sie schlucken
+fast alle Kugeln.</td>
+      <td>
+      <center><img src="../gfx/Airstrike.gif" nosave="" height="32"
+ width="32"></center>
+      </td>
+      <td><b>Luftschlag</b>. Nach dem Platzieren der Signalboje wird
+die markierte
+Stelle aus der Luft mit einem Fl&auml;chenbombardement belegt.</td>
+    </tr>
+    <tr>
+      <td>
+      <center><img src="../gfx/Fireball.gif" nosave="" height="32"
+ width="32"></center>
+      </td>
+      <td><b>Feuerkugel</b>. Brennen beim Einschlag. Hauptanwendung ist
+das Niederbrennen
+von l&auml;stigen B&auml;umen.</td>
+      <td>
+      <center><img src="../gfx/Clusterbomb.gif" nosave="" height="32"
+ width="32"></center>
+      </td>
+      <td><b>Splitterbombe</b>. Am Scheitelpunkt der Schu&szlig;bahn
+zerplatzt
+dieses Projektil in mehrere kleine Bomben mit Streuwirkung.</td>
+    </tr>
+    <tr>
+      <td>
+      <center><img src="../gfx/Water.gif" nosave="" height="32"
+ width="32"></center>
+      </td>
+      <td><b>Wasser</b>. &Uuml;berflutet die dem Einschlagspunkt
+n&auml;chstgelegene
+Senke. Wasser kann beim Zerst&ouml;ren von begrenzenden R&auml;ndern
+auslaufen
+und so gro&szlig;e Teile des Spielfelds unter Wasser setzen.</td>
+      <td>
+      <center><img src="../gfx/Laser.gif" nosave="" height="32"
+ width="32"></center>
+      </td>
+      <td><b>Laser</b>. Feuert einen Laserstrahl ab, der stark genug
+ist sogar
+B&auml;ume in Brand zu setzen.</td>
+    </tr>
+    <tr>
+      <td>
+      <center><img src="../gfx/Mole.gif" nosave="" height="32"
+ width="32"></center>
+      </td>
+      <td><b>Maulw&uuml;rfe</b>. Graben sich zuerst ein St&uuml;ck in
+die Erde
+ein und explodieren dort sternf&ouml;rmig.</td>
+      <td><br>
+      </td>
+      <td><br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<h4>
+Zusatzausr&uuml;stung</h4>
+<table width="50%" bgcolor="#ffffcc" nosave="">
+  <tbody>
+    <tr>
+      <td><b>Symbol</b></td>
+      <td><b>Beschreibung</b></td>
+    </tr>
+    <tr>
+      <td>
+      <center><img src="../gfx/ScrollOMat.gif" nosave="" height="32"
+ width="32"></center>
+      </td>
+      <td><b>Scroll-o-Mat</b>. Der Spieler erh&auml;lt damit die
+M&ouml;glichkeit
+sich das gesamte Spielfeld anzusehen ohne zu schie&szlig;en.</td>
+    </tr>
+    <tr>
+      <td>
+      <center><img src="../gfx/Shield.gif" nosave="" height="32"
+ width="32"></center>
+      </td>
+      <td><b>Energieschild</b>. Schutzschild, das Sch&auml;den durch
+Treffer,
+nahe Explosionen und Runterfallen verhindert. Verbraucht sich dabei
+allerdings
+selbst.</td>
+    </tr>
+    <tr>
+      <td>
+      <center><img src="../gfx/TricPowerup.gif" nosave="" height="32"
+ width="32"></center>
+      </td>
+      <td><b>MFS Verst&auml;rker</b>. Vergr&ouml;&szlig;ert die
+Explosionen von
+MFS 3-fach. Stufe 1: Atombomben-Explosionen, Stufe 2:
+H-Bomben-Explosionen</td>
+    </tr>
+    <tr>
+      <td>
+      <center><img src="../gfx/XM-V12.gif" nosave="" height="32"
+ width="32"></center>
+      </td>
+      <td><b>XM-V12 Panzer</b>. Mit diesem fahrbaren Panzermodell
+erh&auml;lt
+der Spieler die M&ouml;glichkeit anstelle einen Schu&szlig; abzugeben,
+seine Position im Spielfeld zu &auml;ndern.</td>
+    </tr>
+    <tr>
+      <td>
+      <center><img src="../gfx/F-54.gif" nosave="" height="32"
+ width="32"></center>
+      </td>
+      <td><b>Diesel (F54)</b>. Auch der XM-V12 Panzer braucht Sprit zum
+Fahren.</td>
+    </tr>
+  </tbody>
+</table>
+<h2>
+IV. Tank Blaster registrieren</h2>
+Dies ist ein Demoversion von Tank Blaster. Sie erlaubt nur etwa
+f&uuml;nf
+Minuten Spielzeit. Wenn Sie Tank Blaster ohne irgendwelche
+Beschr&auml;nkungen
+spielen m&ouml;chten, m&uuml;ssen Sie sich registrieren lassen.
+<p><b>Registrierte Spieler erhalten...</b>
+</p>
+<p>... einen pers&ouml;nlichen Registrierungs-Code per Post oder E-Mail
+um die Zeitbegrenzung der Demoversion auszuschalten.
+</p>
+<center><img src="../gfx/CoolWorm256.gif" hspace="10" vspace="10"
+ nosave="" height="95" width="183"></center>
+<b>Um ein registrierter Spieler zu werden, einfach:</b>
+<ul>
+  <li>das <a href="regform.doc">Bestellformular</a> ausdrucken
+(regform.doc),
+ausf&uuml;llen und</li>
+  <li>mit <b>10 Euro</b> (bitte nur Bargeld, keine Schecks) senden an:</li>
+</ul>
+<center>
+<table cellpadding="10" width="30%" bgcolor="#ffffcc" nosave="">
+  <tbody>
+    <tr>
+      <td>
+      <center><b>Axel Lauer</b> <br>
+      <b>Ahornallee 113</b> <br>
+      <b>D-86899 Landsberg a. Lech</b></center>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</center>
+<p>Wenn Sie bereits f&uuml;r eine &auml;ltere Version von Tank Blaster
+registriert sind, betr&auml;gt die Registrierungsgeb&uuml;hr f&uuml;r
+das
+Update auf Tank Blaster II nur 5 Euro. (Bitte trotzdem das
+Bestellformular
+ausf&uuml;llen und ausdrucken.)
+</p>
+<p>Neben dieser konventionellen Methode per Post, k&ouml;nnen Sie Tank
+Blaster II auch on-line &uuml;ber den ShareWare-Service <a
+ href="http://www.shareit.com">ShareIt</a>
+registrieren. Besuchen Sie dazu einfach die Internetseite von ShareIt <a
+ href="http://www.shareit.com">http://www.shareit.com</a>
+und suchen Sie nach Tank Blaster II oder geben Sie die Nummer 143303
+ins
+das Suchfeld ein. Sie erhalten dann per E-Mail ihren pers&ouml;nlichen
+Registrierungs-Code. Die Registrierungsgeb&uuml;hr f&uuml;r die on-line
+Registrierung betr&auml;gt <b>10 Euro</b>.
+</p>
+<h2>V. Credits</h2>
+<b>Installationsprogramm</b>
+<p>Das Installationsprogramm von Tank Blaster wurde mit "Install Maker"
+Version 1.2 von Clickteam erstellt.
+</p>
+<p>Die Internetseite von Clickteam:
+</p>
+<p><a href="http://www.clickteam.com">http://www.clickteam.com</a>
+</p>
+<p><b>MOD-Player</b>
+</p>
+<p>Tank Blaster benutzt die DirectSound Mod-Player Klasse "CModPlayer",
+Copyright (c) 1997 by Mark Feldman. Sie wird verwendet, um die
+Musikdateien
+(.MOD) im Intro und Extro zu spielen.
+</p>
+<p>Mark Feldmans Internetseite:
+</p>
+<p><a href="http://www.geocities.com/SiliconValley/2151">http://www.geocities.com/SiliconValley/2151</a>
+</p>
+<p><b>Musik (MOD-Dateien)</b>
+</p>
+<p>Die Musik im Intro ist die MOD-Datei "technomania" von trashcan/s8.
+<br>
+F&uuml;r das Extro wird die MOD-Datei "riff-raff" von zapper verwendet.
+</p>
+<h2>VI. Trouble Shooting</h2>
+<b>M&ouml;gliche Fehlermeldungen:</b>
+<p>In allen F&auml;llen sollten Sie sicher stellen, da&szlig;
+mindestens
+<b>DirectX
+Version 7.0</b> auf Ihrem System installiert ist und dieses
+funktionsf&auml;hig
+ist. Dies kann einfach mit dem DirectX-Programm "DxDiag"
+(standardm&auml;&szlig;ig
+im Verzeichnis C:\Programme\DirectX\Setup) &uuml;berpr&uuml;ft werden.
+</p>
+<ul>
+  <li>DirectX 'DirectDrawCreateEx'&nbsp; failed. DirectX version 7.0 or
+later
+required: Die DirectDraw-Funktion 'DirectDrawCreateEx' konnte nicht
+fehlerfrei
+ausgef&uuml;hrt werden. Wenn DirectX 7.0 oder neuer installiert ist,
+&uuml;berpr&uuml;fen
+Sie, ob bereits andere DirectX-Programme im Hintergrund laufen und
+beenden
+Sie diese gegebenenfalls.</li>
+</ul>
+<ul>
+  <li>DirectX 'SetCooperativeLevel' failed.&nbsp; DirectX version 7.0
+or
+later
+required: Tank Blaster II konnte nicht die exklusiven Zugriffsrechte
+auf
+die Grafikkarte bekommen. Dies ist aber notwendig, um die
+Bildschirmaufl&ouml;sung
+umschalten zu d&uuml;rfen. &Uuml;berpr&uuml;fen Sie, ob noch ein
+anderes
+Programm im Hintergrund l&auml;uft, das DirectX verwendet und beenden
+Sie
+dieses gegebenenfalls.</li>
+</ul>
+<ul>
+  <li>DirectX 'SetDisplayMode' (640x480, HiColor/TrueColor)
+failed.&nbsp;
+DirectX
+version 7.0 or later required: Tank Blaster II konnte nicht in einen
+Bildschirmmodus
+mit 640x480 in 16, 24 oder 32 bit Farbtiefe umschalten. Sollte Ihre
+Grafikkarte
+keinen dieser Modi unterst&uuml;tzen, k&ouml;nnen Sie Tank Blaster II
+nicht
+spielen.</li>
+</ul>
+<ul>
+  <li>DirectX 'CreateSurface' failed. DirectX version 7.0 or later
+required:
+Die DirectDraw-Funktion 'CreateSurface' konnte nicht fehlerfrei
+ausgef&uuml;hrt
+werden. Stellen Sie sicher, da&szlig; mindestens DirectX Version 7.0
+oder
+neuer installiert ist. &Uuml;berpr&uuml;fen Sie, ob noch ein anderes
+Programm
+im Hintergrund l&auml;uft, das DirectX verwendet und beenden Sie dieses
+gegebenenfalls.</li>
+</ul>
+<ul>
+  <li>DirectX 'GetAttachedSurface' failed. DirectX version 7.0 or later
+required:
+Die DirectDraw-Funktion 'GetAttachedSurface' konnte nicht fehlerfrei
+ausgef&uuml;hrt
+werden. Stellen Sie sicher, da&szlig; mindestens DirectX Version 7.0
+oder
+neuer installiert ist. &Uuml;berpr&uuml;fen Sie, ob noch ein anderes
+Programm
+im Hintergrund l&auml;uft, das DirectX verwendet und beenden Sie dieses
+gegebenenfalls.</li>
+</ul>
+<ul>
+  <li>DirectX 'CreateClipper' failed. DirectX version 7.0 or later
+required:
+Die DirectDraw-Funktion 'CreateClipper' konnte nicht fehlerfrei
+ausgef&uuml;hrt
+werden. Stellen Sie sicher, da&szlig; mindestens DirectX Version 7.0
+oder
+neuer installiert ist. &Uuml;berpr&uuml;fen Sie, ob noch ein anderes
+Programm
+im Hintergrund l&auml;uft, das DirectX verwendet und beenden Sie dieses
+gegebenenfalls.</li>
+</ul>
+<ul>
+  <li>DirectX 'DirectSoundCreate' failed. DirectX version 7.0 or later
+required:
+Die DirectSound-Funktion 'DirectSoundCreate' konnte nicht fehlerfrei
+ausgef&uuml;hrt
+werden. Stellen Sie sicher, da&szlig; mindestens DirectX Version 7.0
+oder
+neuer installiert ist. &Uuml;berpr&uuml;fen Sie, ob noch ein anderes
+Programm
+im Hintergrund l&auml;uft, das die Soundkarte &uuml;ber DirectX
+verwendet
+und beenden Sie dieses gegebenenfalls. Sollten Sie keine Soundkarte
+haben,
+k&ouml;nnen Sie Tank Blaster II nicht spielen.</li>
+</ul>
+<ul>
+  <li>DirectX 'SetCooperativeLevel' failed. DirectX version 7.0 or
+later
+required:
+Die DirectSound-Funktion 'SetCooperativeLevel' konnte nicht fehlerfrei
+ausgef&uuml;hrt werden. Stellen Sie sicher, da&szlig; mindestens
+DirectX
+Version 7.0 oder neuer installiert ist. &Uuml;berpr&uuml;fen Sie, ob
+noch
+ein anderes Programm im Hintergrund l&auml;uft, das die exklusiven
+Rechte
+der Soundkarte per DirectX besitzt und beenden Sie dieses
+gegebenenfalls.</li>
+</ul>
+<ul>
+  <li>DirectX 'CreateSoundBuffer' failed. DirectX version 7.0 or later
+required:
+Die DirectSound-Funktion 'CreateSoundBuffer' konnte nicht fehlerfrei
+ausgef&uuml;hrt
+werden. Stellen Sie sicher, da&szlig; mindestens DirectX Version 7.0
+oder
+neuer installiert ist. &Uuml;berpr&uuml;fen Sie, ob noch ein anderes
+Programm
+im Hintergrund l&auml;uft, das die Soundkarte &uuml;ber DirectX
+verwendet
+und beenden Sie dieses gegebenenfalls.</li>
+</ul>
+<ul>
+  <li>DirectX 'SetFormat' failed. DirectX version 7.0 or later
+required: Die
+DirectSound-Funktion 'SetFormat' konnte nicht fehlerfrei
+ausgef&uuml;hrt
+werden. Stellen Sie sicher, da&szlig; mindestens DirectX Version 7.0
+oder
+neuer installiert ist. &Uuml;berpr&uuml;fen Sie, ob noch ein anderes
+Programm
+im Hintergrund l&auml;uft, das DirectX verwendet und beenden Sie dieses
+gegebenenfalls. Sollte Ihre Soundkarte nicht das Format 16 bit stereo,
+22 kHz &uuml;ber DirectX unterst&uuml;tzen, k&ouml;nnen Sie Tank
+Blaster
+II nicht spielen.</li>
+</ul>
+<h2>
+VII. <b>Tank Blaster Versionsgeschichte, was neu ist</b></h2>
+<b>Tank Blaster II</b>
+<ul>
+  <li>Version 1.0 [erste Tank Blaster Windows/DirectX Ausgabe]</li>
+</ul>
+<h2>
+VIII. Tank Blaster im Internet</h2>
+Tank Blaster II besitzt eine eigene Internetseite. Dort finden Sie
+<ul>
+  <li>die neueste Version</li>
+  <li>aktuelle Informationen</li>
+  <li>on-line Version der Dokumentation</li>
+  <li>Link zur on-line Registrierung</li>
+</ul>
+Die Adresse lautet: <a href="http://www.tankblaster.de"><b>http://www.tankblaster.de</b></a><br>
+<a href="http://www.schwabmuenchen.org/%7Elauer/Tank_II/"></a>
+<h2>IX. Lizenzbestimmungen</h2>
+<b>WEITERGABE</b>. Tank Blaster II ist ShareWare. Es ist gestattet Tank
+Blaster II frei und kostenlos (in allen Medien) zu verteilen,
+vorausgesetzt
+da&szlig;:
+<ol>
+  <li>Nur das Original-Installationsprogramm von Tank Blaster II
+verteilt
+wird
+(dieses kann im Internet unter http://www.tankblaster.de
+heruntergeladen werden).</li>
+  <li>Keine Geb&uuml;hren daf&uuml;r verlangt werden.</li>
+</ol>
+<b>GARANTIEBESTIMMUNGEN</b>. Der Autor &uuml;bernimmt keine Garantie
+f&uuml;r
+das Funktionieren oder die Verwendbarkeit dieser Software f&uuml;r
+einen
+speziellen Zweck. Das Programm, die Anleitung und alle
+dazugeh&ouml;renden
+Dateien werden dem Benutzer so angeboten "wie sie sind". Der Autor kann
+keine Verantwortung f&uuml;r gleichwelche Probleme oder Sch&auml;den
+&uuml;bernehmen,
+die direkt, indirekt oder in Folge des Gebrauchs oder Mi&szlig;brauchs
+dieses Programms und/oder der dazugeh&ouml;rigen Dateien entstehen
+k&ouml;nnen.
+</body>
+</html>

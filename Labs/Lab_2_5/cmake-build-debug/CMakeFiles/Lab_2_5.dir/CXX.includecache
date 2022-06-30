@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/games/Lab_2_5/String.h
+iostream
+-
+fstream
+-
+cstring
+-
+
+C:/games/Lab_2_5/main.cpp
+iostream
+-
+String.h
+C:/games/Lab_2_5/String.h
+

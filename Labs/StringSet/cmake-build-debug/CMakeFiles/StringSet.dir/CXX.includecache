@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/games/StringSet/Set.cpp
+iostream
+-
+string
+-
+algorithm
+-
+Set.h
+C:/games/StringSet/Set.h
+
+C:/games/StringSet/Set.h
+iostream
+-
+cstring
+-
+fstream
+-
+string
+-
+

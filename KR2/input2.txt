@@ -1,0 +1,4 @@
+goto 0 5
+ctrl left
+ctrl right
+backspace

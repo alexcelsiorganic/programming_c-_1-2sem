@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/games/2_6/Schoolboy.cpp
+Schoolboy.h
+C:/games/2_6/Schoolboy.h
+
+C:/games/2_6/Schoolboy.h
+iostream
+-
+fstream
+-
+string
+-
+Student.h
+C:/games/2_6/Student.h
+
+C:/games/2_6/Student.h
+iostream
+-
+fstream
+-
+string
+-
+

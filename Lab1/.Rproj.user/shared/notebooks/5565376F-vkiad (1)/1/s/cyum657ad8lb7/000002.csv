@@ -1,0 +1,1 @@
+"0","plot(c2~c3, col=ifelse(kmres$cluster ==""1"", ""blue"",""green""))"

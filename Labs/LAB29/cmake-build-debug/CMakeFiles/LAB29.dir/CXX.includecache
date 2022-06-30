@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/games/LAB29/Lab3_STL.cpp
+Lab3_STL.h
+C:/games/LAB29/Lab3_STL.h
+
+C:/games/LAB29/Lab3_STL.h
+iostream
+-
+vector
+-
+algorithm
+-
+iterator
+-
+numeric
+-
+
+C:/games/LAB29/main.cpp
+iostream
+-
+locale.h
+-
+Lab3_STL.h
+C:/games/LAB29/Lab3_STL.h
+

@@ -1,0 +1,67 @@
+===============================================================================
+
+         D I E   V O L L S T Ä N D I G E    D O K U M E N T A T I O N
+
+                           I S T   N A C H   D E R
+
+               I N S T A L L A T I O N   V E R F Ü G B A R ! ! !
+
+===============================================================================
+
+Titel:   Tank Blaster II - the crazy artillery game
+Version: 1.0
+Autor:   Axel Lauer, e-Mail: axel_lauer@tankblaster.de
+
+Tank Blaster II ist Shareware Bitte lesen Sie dazu auch die Lizenzbestimmungen.
+
+===============================================================================
+
+
+Kurze Spielbeschreibung
+-----------------------
+
+Tank Blaster II ist DAS ultimative Artillerie-Spiel für bis zu zehn Spieler. Dabei
+versuchen sich die Teilnehmer gegenseitig mit den unterschiedlichsten Waffen,
+Ausrüstungsgegenständen und Tricks von der Spielfläche zu schießen. Die Neuauflage
+der klassischen Spielidee steckt voll mit lustigen Grafiken, Animationen und Geräuschen,
+die das Ganze zu einem riesen Spaß machen!
+
+Systemanforderungen
+-------------------
+
+- Pentium / AMD K6, 200 MHz
+- Windows 9x / me
+- DirectX Version 7.0 oder neuer
+- Grafikkarte mit Unterstützung von HiColor (16 bit) oder TrueColor (24 / 32 bit)
+- Soundkarte 
+- 10 MB freier Speicher auf Festplatte 
+
+  Empfohlene (zusätzliche) Hardware: 
+
+- Pentium II / AMD K6-2, 300 MHz
+- 2D beschleunigte Hochleistungsgrafikkarte (z. B. TNT (2), Voodoo 3, ...)
+- 64 MB Speicher 
+
+Tank Blaster II Installation
+----------------------------
+
+Einfach das Icon für das Programm Setup.exe anklicken. Das Installationsprogramm entpackt
+alle Dateien in das von Ihnen angegebene Verzeichnis und legt ein Verknüpfungen für das
+Programm und die Dokumentation im Startmenü an.
+
+Lizenzbestimmungen
+------------------
+
+WEITERGABE. Tank Blaster II ist ShareWare. Es ist gestattet Tank Blaster II frei und
+kostenlos (in allen Medien) zu verteilen, vorausgesetzt daß: 
+
+   1. Nur das Original-Installationsprogramm von Tank Blaster II verteilt wird
+      (dieses kann im Internet unter http://www.tankblaster.de heruntergeladen werden).
+   2. Keine Gebühren dafür verlangt werden. 
+
+GARANTIEBESTIMMUNGEN. Der Autor übernimmt keine Garantie für das Funktionieren oder die
+Verwendbarkeit dieser Software für einen speziellen Zweck. Das Programm, die Anleitung
+und alle dazugehörenden Dateien werden dem Benutzer so angeboten "wie sie sind". Der
+Autor kann keine Verantwortung für gleichwelche Probleme oder Schäden übernehmen, die
+direkt, indirekt oder in Folge des Gebrauchs oder Mißbrauchs dieses Programms und/oder
+der dazugehörigen Dateien entstehen können.

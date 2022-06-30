@@ -1,0 +1,2 @@
+"0","res = residuals(linmod)"
+"0","qqnorm(res)"

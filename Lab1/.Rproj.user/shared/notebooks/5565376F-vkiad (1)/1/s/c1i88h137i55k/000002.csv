@@ -1,0 +1,4 @@
+"0","cor(qc3$kit, method=""spearman"")"
+"2","Error in cor(qc3$kit, method = ""spearman"") : 
+  supply both 'x' and 'y' or a matrix-like 'x'
+"

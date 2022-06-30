@@ -1,0 +1,13 @@
+"0","var(qc3$c1)
+"
+"1","[1]"
+"1"," 5.449228"
+"1","
+"
+"2","Warning message:
+"
+"2","In normalizePath(path.expand(path), winslash, mustWork) :"
+"2","
+ "
+"2"," path[1]=""C:/Users/?????????/Documents"": Синтаксическая ошибка в имени файла, имени папки или метке тома
+"

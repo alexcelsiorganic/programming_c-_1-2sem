@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/games/LAB28/Geometry.h
+iostream
+-
+string
+-
+Point.h
+C:/games/LAB28/Point.h
+windows.h
+-
+
+C:/games/LAB28/Paral.cpp
+iostream
+-
+cmath
+-
+time.h
+-
+Rhombus.h
+C:/games/LAB28/Rhombus.h
+
+C:/games/LAB28/Point.h
+iostream
+-
+
+C:/games/LAB28/Rhombus.h
+iostream
+-
+string
+-
+fstream
+-
+windows.h
+-
+Geometry.h
+C:/games/LAB28/Geometry.h
+

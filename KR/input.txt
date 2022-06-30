@@ -1,0 +1,8 @@
+Run Internet Explorer
+Run Pascal
+Alt+Tab
+Run Miranda
+Alt+Tab+Tab
+Alt+Tab+Tab+Tab
+Run Calculator
+Alt+Tab

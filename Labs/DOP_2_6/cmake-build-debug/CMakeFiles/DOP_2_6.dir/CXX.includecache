@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/games/DOP_2_6/Galaxy.h
+iostream
+-
+fstream
+-
+Moon.h
+C:/games/DOP_2_6/Moon.h
+Planet.h
+C:/games/DOP_2_6/Planet.h
+Star.h
+C:/games/DOP_2_6/Star.h
+
+C:/games/DOP_2_6/Moon.h
+iostream
+-
+fstream
+-
+Planet.h
+C:/games/DOP_2_6/Planet.h
+
+C:/games/DOP_2_6/Planet.h
+iostream
+-
+fstream
+-
+
+C:/games/DOP_2_6/Star.h
+iostream
+-
+fstream
+-
+
+C:/games/DOP_2_6/main.cpp
+iostream
+-
+Galaxy.h
+C:/games/DOP_2_6/Galaxy.h
+

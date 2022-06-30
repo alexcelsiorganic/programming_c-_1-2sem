@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/games/untitled/Container.h
+iostream
+-
+fstream
+-
+string
+-
+
+C:/games/untitled/main.cpp
+iostream
+-
+Container.h
+C:/games/untitled/Container.h
+

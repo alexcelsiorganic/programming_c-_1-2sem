@@ -1,0 +1,6 @@
+Minsk Truth 3 10
+Minsk Europe 4 20
+Moscow Europe 4 40
+Moscow Russia 4 55
+Bobruisk Tourist 3 52
+Mozyr Pripyat 3 53

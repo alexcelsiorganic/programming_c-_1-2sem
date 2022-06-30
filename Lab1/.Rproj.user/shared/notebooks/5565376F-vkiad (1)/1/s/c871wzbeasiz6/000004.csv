@@ -1,0 +1,4 @@
+"0","ifelse[qc3$kit < 3, 1, 2 ]"
+"2","Error in ifelse[qc3$kit < 3, 1, 2] : 
+  object of type 'closure' is not subsettable
+"
